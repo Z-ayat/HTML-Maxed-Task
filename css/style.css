@@ -47,6 +47,7 @@ header {
     left: 180px;
 }
 @media (max-width:768px){
+    html,body{overflow-x:hidden;}
     .title::before{
         width: 0;
     }
