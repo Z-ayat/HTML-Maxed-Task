@@ -49,10 +49,10 @@ header {
 @media (max-width:385px)
 {
     .title::after{
-        width:50px;
+        display:none;
     }
     .title::before{
-        width:50px;
+        display:none;
     }
 }
 .red {
