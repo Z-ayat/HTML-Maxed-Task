@@ -46,12 +46,15 @@ header {
     background-color: #094e75;
     left: 180px;
 }
-@media (max-width:375px)
+@media screen and (max-width: 375px)
 {
-    .title::after{
+    .title::after
+    {
         display:none;
     }
-.title::before{display:none;}}
+.title::before
+{display:none;
+}}
 
 .red {
     color: red;
