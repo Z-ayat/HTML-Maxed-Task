@@ -52,7 +52,7 @@ header {
         width:50px;
     }
     .title::before{
-        width:150px;
+        width:50px;
     }
 }
 .red {
