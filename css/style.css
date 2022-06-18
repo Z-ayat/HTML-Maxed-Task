@@ -50,10 +50,10 @@ header {
 {
     .title::after
     {
-        display:none;
+        width: 0;
     }
 .title::before
-{display:none;
+{width: 0;
 }}
 
 .red {
