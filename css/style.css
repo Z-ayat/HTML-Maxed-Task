@@ -1,0 +1,136 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', sans-serif;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+header {
+    height: calc(100vh - 56px);
+    background-image: url(../img/header-bg.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.title {
+    color: #36b2cc;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0.5rem 1rem;
+    border: 1px solid #094e75;
+    border-radius: 18px;
+}
+
+.title::before {
+    position: absolute;
+    content: "";
+    height: 2px;
+    width: 400px;
+    background-color: #094e75;
+    right: 180px;
+}
+
+.title::after {
+    position: absolute;
+    content: "";
+    height: 2px;
+    width: 400px;
+    background-color: #094e75;
+    left: 180px;
+}
+
+.red {
+    color: red;
+}
+
+#items img {
+    width: 150px !important;
+    height: 160px !important;
+}
+
+
+/* .card .btn {
+    position: absolute;
+    bottom: 0;
+} */
+
+
+/* Sign-up Sign-in section */
+
+.sign-up {
+    background-color: #fff;
+}
+
+.sign-up form input::placeholder {
+    text-align: center;
+}
+
+.slogan {
+    background-color: #252cec;
+}
+
+.slogan i {
+    color: #252cec;
+    background-color: #94f9e2;
+    border-radius: 50%;
+}
+
+.slogan h2 {
+    font-size: 4rem;
+}
+
+.hr-with-text::after {
+    content: "";
+    text-align: center;
+    width: 35%;
+    height: 2px;
+    position: absolute;
+    background-color: #ebeff7;
+    top: 50%;
+    right: 0;
+}
+
+.hr-with-text::before {
+    content: "";
+    text-align: center;
+    width: 35%;
+    height: 2px;
+    position: absolute;
+    background-color: #ebeff7;
+    top: 50%;
+    left: 0;
+}
+
+
+/* Confirmation */
+
+#confirmed .container {
+    height: calc(100vh - 56px);
+}
+
+
+/* Footer */
+
+footer {
+    background-color: #212529;
+    color: #fff;
+}
+
+footer ul li i {
+    color: #fff;
+}
+
+footer ul li {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+}

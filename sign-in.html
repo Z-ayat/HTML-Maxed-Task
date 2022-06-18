@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=
+    , initial-scale=1.0">
+    <title>FSDAAC</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap" rel="stylesheet">
+</head>
+<style>
+    main {
+        width: 100vw;
+        height: 100vh;
+        background-color: #ebeff7 !important;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+</style>
+
+<body>
+    <nav class="navbar navbar-expand-lg bg-dark navbar-dark sticky-top w-100 mb-5">
+        <div class="container-fluid container-lg">
+            <a class="navbar-brand" href="index.html">RS-Shop</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#items">Items</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">About us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contact us</a>
+                    </li>
+                    <a href="sign-in.html"><button type="button"
+                            class="btn btn-primary ms-lg-3 active">SIGN-IN</button></a>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <main class="container d-flex flex-row rounded-3 h-75 shadow-sm">
+        <section class="sign-up pt-4 pb-4 ps-5 pe-5 w-50 rounded-start">
+            <!-- <p class="text-black-50">Have an account ?
+                <a href="sign-in.html">Sign In</a>
+            </p> -->
+            <h1 class="fw-bolder">Welcome to RS-Shop</h1>
+            <p class="text-black-50">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt commodi quia assumenda iure enim omnis.</p>
+            <form action="inq-conf.html" method="GET">
+                <label for="mail">E-Mail</label>
+                <input class="w-100 p-2" placeholder="Your Email" type="email" name="mail" id="mail">
+                <br><br>
+                <label for="password">Password</label>
+                <input class="w-100 p-2" type="password" name="password" id="password" placeholder="Your Password">
+                <input type="submit" value="Sign in" class="rounded-pill border-0 w-100 mt-3 p-3">
+            </form>
+            <span class="hr-with-text text-black-50 position-relative text-center w-100 d-block mt-3 mb-4">Or sign in
+                with</span>
+
+            <div class="sign-up-with mt-4">
+                <ul class="list-unstyled d-flex gap-5 justify-content-center">
+                    <li>
+                        <a href="#"><i class="fa-brands fa-google fa-2xl"></i></a>
+                    </li>
+                    <li>
+                        <a href="#"><i class="fa-brands fa-facebook-f fa-2xl"></i></a>
+                    </li>
+                    <li>
+                        <a href="#"><i class="fa-brands fa-apple fa-2xl"></i></a>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <section class="slogan d-flex flex-column justify-content-center  pt-5 pb-5 ps-4 pe-4 w-50 rounded-end">
+            <div class="quote">
+                <i class="ms-5 fa fa-quote-left p-2" aria-hidden="true"></i>
+            </div>
+            <h2 class="text-white fw-bold w-50 ms-5">
+                Make a dream.
+            </h2>
+
+            <blockquote class="ps-5 ms-5 w-75 text-white-50 lh-lg">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Inventore nostrum eveniet nesciunt perferendis. Eius autem ullam.</blockquote>
+            <div class="sayer d-flex justify-content-center align-items-center">
+                <div class="img-container">
+                    <img class="img-fluid rounded-circle" width="45px" src="https://avatars.githubusercontent.com/u/45783300?v=4" alt="Profile Picture">
+                </div>
+                <div class="sayeer-infos d-flex flex-column ms-4">
+                    <p class="text-white mb-0">Ali El-Zayat</p>
+                    <p class="text-white-50 mb-0">Full-Stack Web Developer</p>
+                </div>
+            </div>
+        </section>
+    </main>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/all.min.js"></script>
+</body>
+
+</html>
